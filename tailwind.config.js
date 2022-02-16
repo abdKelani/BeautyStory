@@ -22,7 +22,7 @@ module.exports = {
         background: '#F2F2F2',
       },
       height: {
-        screen8: '85vh'
+        screen8: '87vh'
       }
     },
     screens: {
