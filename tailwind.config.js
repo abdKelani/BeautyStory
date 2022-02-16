@@ -2,6 +2,11 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3rem',
+        '1.25': '1.25'
+      },  
       fontFamily: {
         ibm: ['IBM Plex Sans Arabic'],
         pingLight: ['pingLight', ],
@@ -79,6 +84,7 @@ module.exports = {
       18: '4.5rem',
       20: '5rem',
       22: '5.5rem',
+      23: '5.75rem',
       24: '6rem',
       28: '7rem',
       32: '8rem',
@@ -109,8 +115,22 @@ module.exports = {
       
     },
   },
-
+  
   plugins: [
     require('tailwind-scrollbar-hide'),
+    function ({ addComponents }) {
+      addComponents({
+        '.container': {
+          maxWidth: '100%',
+          '@screen sm': {
+            maxWidth: '640px',
+          },
+          '@screen md': {
+            maxWidth: '1300px',
+          },
+          
+        }
+      })
+    }
   ],
 }

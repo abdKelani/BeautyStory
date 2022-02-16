@@ -18,7 +18,7 @@
             <div class=" bg-black h-72 opacity-60">
             </div>
             <nav class="border-b border-gr absolute inset-0 h-22">
-                <div class=" container px-5 mx-auto md:px-page-container flex justify-between">
+                <div class=" container px-5 mx-auto  flex justify-between">
                     <div>
                         <a href="index.html"><img src="images/logo-white.svg" alt="Logo" class="h-16 mt-3"></a>
                     </div>
@@ -44,7 +44,7 @@
                      </button>
                 </div>
             </nav>           
-            <div class="relative bottom-56 mt-16 h-auto container px-5 md:px-page-container z-10 mx-auto flex place-content-center">
+            <div class="relative bottom-56 mt-16 h-auto container px-5  z-10 mx-auto flex place-content-center">
                 <div class="align-middle text-white text-center">
                     <h1 class="md:text-5xl text-4xl font-pingBold">الورش</h1>
                     <h3 class="pt-2">الرئيسية/الورش</h3>
@@ -68,7 +68,7 @@
     
     
     
-    <section class="container mx-auto md:px-page-container">
+    <section class="container mx-auto ">
         <!-- Start CATEGORIES -->
         <div class="relative -top-20">
             <div class="pb-2 w-full text-white">
@@ -281,34 +281,39 @@
     </section>
 
     <!-- START CARDS -->
-    <section class=" container mx-auto md:px-page-container px-4">  
+    <section class=" container mx-auto  px-4">  
         <div class="grid md:grid-cols-3 grid-rows-3 h-fit relative -top-10 mt-10 md:mt-0">
-              <!-- Start CARD -->
-              <div class="md:mx-card-margine mb-8">
-                <div class="cursor-pointer transform transition duration-500 hover:-translate-y-4 OpenModal">
-                    <div class="bg-cover bg-center rounded-2xl overflow-hidden h-60" 
-                    style="background-image: url('images/workshop2.jpg');">
+              <!-- Starts CARD -->
+              <div class="md:mx-card-margine mb-8 transform transition duration-500 hover:-translate-y-4">
+                  <!-- COMPLETED WORKSHOP -->
+                  <div class="h-52 w-52 absolute bg-cover bg-center right-23 top-4 flex justify-center pl-40 z-20 rounded-full" 
+                  style="background-image: url('./images/stamp.jpg');"> </div>
+                  <!-- COMPLETED WORKSHOP -->                  
+                  <div class="cursor-pointer  OpenModal grayscale">
+                      <div class="bg-cover bg-center rounded-2xl overflow-hidden h-60" 
+                      style="background-image: url('images/workshop2.jpg');">
                     </div>
-                    <div class="my-4 tracking-wide font-pingMedium text-gr flex justify-between"> 
-                        <div>
-                            <h4 class="font-pingLight"><span class="font-pingBold">180</span> ر.س بقي 14 يوم لتبدأ</h4>
+                        <div class="my-4 tracking-wide font-pingMedium text-gr flex justify-between"> 
+                            <div>
+                                <h4 class="font-pingLight"><span class="font-pingBold">180</span> ر.س بقي 14 يوم لتبدأ</h4>
+                            </div>
+                            <div class="">
+                                <h4 class="inline-flex text-yl">8.3</h4>
+                                <i class="fas fa-star text-xs text-yl"></i>
+                            </div>
                         </div>
-                        <div class="">
-                            <h4 class="inline-flex text-yl">8.3</h4>
-                            <i class="fas fa-star text-xs text-yl"></i>
+                        <h2 class="text-lg font-pingBold mb-4">يمكن استبدال هذا النص باسم الورشة كاملا</h2>
+                        <div class="flex">
+                            <div class="flex text-gr ml-4">
+                                <i class="fas fa-map-marker-alt ml-2 pt-1"></i>
+                                <h4>السعودية - الرياض</h4>
+                            </div>
+                            <div class="flex text-gr">
+                                <i class="fas fa-certificate ml-2 pt-1"></i>
+                                <h4>شهادة حضور</h4>
+                            </div>
                         </div>
-                    </div>
-                    <h2 class="text-lg font-pingBold mb-4">يمكن استبدال هذا النص باسم الورشة كاملا</h2>
-                    <div class="flex">
-                        <div class="flex text-gr ml-4">
-                            <i class="fas fa-map-marker-alt ml-2 pt-1"></i>
-                            <h4>السعودية - الرياض</h4>
-                        </div>
-                        <div class="flex text-gr">
-                            <i class="fas fa-certificate ml-2 pt-1"></i>
-                            <h4>شهادة حضور</h4>
-                        </div>
-                    </div>
+                     
                 </div>
             </div>
             <!-- End CARD -->   
@@ -634,7 +639,7 @@
 
  <!-- START FOOTER -->
  <footer class="bg-background md:w-full md:mb-0">
-    <div class="container mx-auto md:px-page-container md:flex pt-10">
+    <div class="container mx-auto  md:flex pt-10">
         
         <div class="ml-32 md:w-full mr-8 md:mr-0"> 
             <a href="index.html"><img src="images/logo.svg" alt="Logo" class="h-16 mt-2"></a>
