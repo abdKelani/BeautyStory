@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="output.css">
+    <title>قصص جمال</title>
+</head>
+
+<body class="font-pingRegular">
+
+    <!-- START NAVBAR SECTION -->
+    <section class="bg-white h-auto py-2 fixed z-20 w-full md:w-auto md:static">
+        <nav class="container mx-auto md:px-page-container flex justify-between bg-white">
+            <div class="">
+                <a href="index.html"><img src="images/logo.svg" alt="Logo" class="h-16 mt-2 md:mr-0 pr-3"></a>
+            </div>
+            <div class="md:flex hidden">
+                <ul id="myDIV" class="pt-6 md:flex hidden">
+                    <li class=""><a class="active cursor-pointer ml-12 pb-1 ">الرئيسية</a></li>
+                    <li class=""><a class="ml-12 cursor-pointer pb-1 " href="story.html">القصص</a></li>
+                    <li class=""><a class="ml-12 cursor-pointer pb-1 " href="us.html">نحن</a></li>
+                    <li class=""><a class="ml-12 cursor-pointer pb-1 " href="workshops.html">الورش</a></li>
+                    <li class=""><a class="ml-12 cursor-pointer pb-1 " href="ideas.html">مستودع الأفكار</a></li>
+                </ul>
+                <div class="pt-4 ml-4  mx-auto text-gr hidden  searchBar">
+                    <input class="border border-black bg-white h-10 px-14 pr-10 rounded-md text-sm focus:outline-none"
+                      type="search" name="search" placeholder=" البحث..">
+                </div>
+                <button class="searchIcon pb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gr  cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Nav btn goes here -->
+            <button class="md:ml-0 sm:pl-3 flex md:hidden items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ml-3   transform transition origin-center duration-300  mobileMenueBtnM md:ml-0 h-6 w-6 text-gr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+            </button>            
+        </nav> 
+        <!-- END NAVBAR SECTION -->
+    </section>
+    <!-- Mobile Nav -->
+    <div class="place-items-center  hidden  w-full h-screen mt-22 overflow-y-auto inset-0 backdrop-blur-sm bg-opacity-90 fixed z-20  bg-background" id="mobileMenueM">
+        <div class="h-screen items-center   object-center place-items-center grid">
+           <div class="relative bottom-10 ">
+            <a href="index.html" class="text-black text-2xl text-center block py-7 font-pingMedium px-2 hover:text-yl">الرئيسية</a>
+            <a href="story.html" class="text-black text-2xl text-center block py-7 font-pingMedium px-2 hover:text-yl">القصص</a>
+            <a href="us.html" class="text-black text-2xl text-center block py-7 font-pingMedium px-2 hover:text-yl">نحن</a>
+            <a href="workshops.html" class="text-black text-2xl text-center block py-7 font-pingMedium px-2 hover:text-yl">الورش</a>
+            <a href="ideas.html" class="text-black text-2xl text-center block py-7 font-pingMedium px-2 hover:text-yl">مستودع الأفكار</a>
+           </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- START SCROLL SECTION -->
+        <section class="bg-background md:pt-4  h-screen  pt-28 bg-scroll">
+
+            <div class="  md:h-8.7/10 h-screen8  overflow-scroll snap-y scroll scrollbar-hide bg-fixed hover:scroll-smooth">
+                <div class="container mx-auto md:px-page-container md:grid md:grid-cols-2">
+                    
+                    <!-- Start RIGHT SIDE -->                    
+                    <div class="sticky top-0 container mx-auto h-screen8  hidden md:flex bg-fixed  rounded-2xl overflow-hidden">
+                        <a href="" >
+                            <div class="zoom-effect bg-center rounded-2xl" 
+                                style="background-image: url('images/daughter-and-mom.jpeg');" >
+                            </div>
+                            <div class="absolute text-white grid content-end bottom-0 mr-10 mb-5">
+                                <span class="">المنزل 22/22/2022</span>
+                                <h1 class="text-5xl font-pingMedium leading-snug">رايا ووالدتها يصنعان كعكة منزلية</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End RIGHT SIDE -->
+        
+                    <!-- Start LEFT SIDE -->
+                    <div class="md:h-full">
+                        <div class="grid sm:grid-cols-2 mx-4 md:mr-2 md:mx-0 ">
+                        
+                            <!-- Start Card (COPY OF MAIN CARD) -->
+                            <div class="mb-7 snap-both md:hidden">
+                                <a href="">
+                                     <div class="relative overflow-hidden flex rounded-2xl h-440  md:mx-card-margine">
+                                        <div class="zoom-effect  bg-cover bg-no-repeat rounded-2xl" 
+                                        style="background-image: url('images/daughter-and-mom.jpeg');" ></div>
+                                    </div>
+                                    <div class="mr-5 mt-3">
+                                        <span class="text-sm text-gr">المنزل 22/22/2022</span>
+                                        <h1 class="text-lg mt-1  leading-tight font-semibold">لماذا نصنع المنتجات الجميلة لعدد محدود فقط من المشترين ؟</h1>
+                                    </div>     
+                                </a>
+                            </div>
+                            <!-- End Card  (COPY OF MAIN CARD)-->
+                            
+                            <!-- Start Card -->
+                            <div class="mb-7 snap-normal">
+                                <a href="">
+                                    <div class="relative overflow-hidden flex rounded-2xl h-440  md:mx-card-margine">
+                                        <div class="zoom-effect  bg-cover bg-no-repeat rounded-2xl" 
+                                        style="background-image: url('images/daughter-and-mom.jpeg');" ></div>
+                                    </div>
+                                    <div class="mr-5 mt-3">
+                                        <span class="text-sm text-gr">المنزل 22/22/2022</span>
+                                        <h1 class="text-lg mt-1 pl-3 leading-tight font-semibold">لماذا نصنع المنتجات الجميلة لعدد محدود فقط من المشترين ؟</h1>
+                                    </div>     
+                                </a>
+                            </div>
+                               <!-- End Card -->
+
+                            <!-- Start Card -->
+                                <div class="mb-7 snap-normal">
+                                    <a href="">
+                                        <div class="relative overflow-hidden flex rounded-2xl h-440  md:mx-card-margine ">
+                                            <div class="zoom-effect  bg-cover bg-no-repeat rounded-2xl" 
+                                            style="background-image: url('images/daughter-and-mom.jpeg');" ></div>
+                                        </div>
+                                        <div class="mr-5 mt-3">
+                                            <span class="text-sm text-gr">المنزل 22/22/2022</span>
+                                            <h1 class="text-lg mt-1 pl-3 leading-tight font-semibold">لماذا نصنع المنتجات الجميلة لعدد محدود فقط من المشترين ؟</h1>
+                                        </div>     
+                                    </a>
+                                </div>
+                            <!-- End Card -->
+                             <!-- Start Card -->
+                             <div class="mb-7 snap-normal">
+                                <a href="">
+                                    <div class="relative overflow-hidden flex rounded-2xl h-440  md:mx-card-margine ">
+                                        <div class="zoom-effect  bg-cover bg-no-repeat rounded-2xl" 
+                                        style="background-image: url('images/daughter-and-mom.jpeg');" ></div>
+                                    </div>
+                                    <div class="mr-5 mt-3">
+                                        <span class="text-sm text-gr">المنزل 22/22/2022</span>
+                                        <h1 class="text-lg mt-1 pl-3 leading-tight font-semibold">لماذا نصنع المنتجات الجميلة لعدد محدود فقط من المشترين ؟</h1>
+                                    </div>     
+                                </a>
+                            </div>
+
+                            <!-- Start Card -->
+                                <div class="mb-7 snap-normal">
+                                    <a href="">
+                                        <div class="relative overflow-hidden flex rounded-2xl h-440  md:mx-card-margine ">
+                                            <div class="zoom-effect  bg-cover bg-no-repeat rounded-2xl" 
+                                            style="background-image: url('images/daughter-and-mom.jpeg');" ></div>
+                                        </div>
+                                        <div class="mr-5 mt-3">
+                                            <span class="text-sm text-gr">المنزل 22/22/2022</span>
+                                            <h1 class="text-lg mt-1 pl-3 leading-tight font-semibold">لماذا نصنع المنتجات الجميلة لعدد محدود فقط من المشترين ؟</h1>
+                                        </div>     
+                                    </a>
+                                </div>
+                            <!-- End Card -->
+
+                             <!-- Start Card -->
+                             <div class="mb-7 snap-normal">
+                                <a href="">
+                                    <div class="relative overflow-hidden flex rounded-2xl h-440  md:mx-card-margine ">
+                                        <div class="zoom-effect  bg-cover bg-no-repeat rounded-2xl" 
+                                        style="background-image: url('images/daughter-and-mom.jpeg');" ></div>
+                                    </div>
+                                    <div class="mr-5 mt-3">
+                                        <span class="text-sm text-gr">المنزل 22/22/2022</span>
+                                        <h1 class="text-lg mt-1 pl-3 leading-tight font-semibold">لماذا نصنع المنتجات الجميلة لعدد محدود فقط من المشترين ؟</h1>
+                                    </div>     
+                                </a>
+                            </div>
+
+                            <!-- Start Card -->
+                                <div class="mb-7 snap-normal">
+                                    <a href="">
+                                        <div class="relative overflow-hidden flex rounded-2xl h-440  md:mx-card-margine ">
+                                            <div class="zoom-effect  bg-cover bg-no-repeat rounded-2xl" 
+                                            style="background-image: url('images/daughter-and-mom.jpeg');" ></div>
+                                        </div>
+                                        <div class="mr-5 mt-3">
+                                            <span class="text-sm text-gr">المنزل 22/22/2022</span>
+                                            <h1 class="text-lg mt-1 pl-3 leading-tight font-semibold">لماذا نصنع المنتجات الجميلة لعدد محدود فقط من المشترين ؟</h1>
+                                        </div>     
+                                    </a>
+                                </div>
+                            <!-- End Card -->
+
+                        </div>
+                        <div class="text-center my-4">
+                            <button class="border-2 rounded-full font-semibold py-2 px-9">كافة القصص</button>
+                        </div>        
+                    </div>
+                    <!-- End LEFT SIDE -->
+                </div>
+            </div>
+
+        </section>
+        <!-- END SCROLL SECTION -->
+            
+       <!-- START CATEGORIES SECTION -->
+       <section class="bg-background pb-7 pt-10 md:pt-0">
+        <div class="container mx-auto md:px-page-container px-4 mb-10 ">
+            <h1 class="md:text-5xl text-3xl font-pingBold mb-1">التصنيفات</h1>
+            <h4 class="text-gr md:text-base text-sm">هذا هو النص هو مثال لنص يمكن أن يستبدل بنفس الساحة</h4>
+
+            <div class="md:grid md:grid-cols-5 flex snap-x overflow-x-scroll bg-fixed mt-7 mb-10 scrollbar-hide">
+        
+                <!-- Start CARD -->
+                <div class=" ml-card-margine">
+                    <a href="">
+                        <div class="relative flex items-center justify-center  overflow-hidden rounded-2xl w-60 md:w-9.5/10 h-72 px-1">
+                            <div style="background-image: url('images/daughter-and-mom.jpeg');" class="zoom-effect  rounded-2xl">
+                            </div> 
+                            <div class="grid content-end absolute bottom-0">
+                                <button class="mb-4 bg-black bg-opacity-50 rounded-full text-white font-pingMedium px-16 py-1.5">
+                                    الطعام
+                                </button>
+                            </div>
+                        </div>        
+                    </a>
+                </div>            
+                <!-- End CARD -->
+                
+                <!-- Start CARD -->
+                <div class=" ml-card-margine">
+                    <a href="">
+                        <div class="relative flex items-center justify-center  overflow-hidden rounded-2xl w-60 md:w-9.5/10 h-72 px-1">
+                            <div style="background-image: url('images/daughter-and-mom.jpeg');" class="zoom-effect rounded-2xl">
+                            </div> 
+                            <div class="grid content-end absolute bottom-0">
+                                <button class="mb-4 bg-black bg-opacity-50 rounded-full text-white font-pingMedium px-16 py-1.5">
+                                    الطعام
+                                </button>
+                            </div>
+                        </div>        
+                    </a>
+                </div>            
+                <!-- End CARD -->
+
+                <!-- Start CARD -->
+                <div class=" ml-card-margine">
+                    <a href="">
+                        <div class="relative flex items-center justify-center  overflow-hidden rounded-2xl w-60 md:w-9.5/10 h-72 px-1">
+                            <div style="background-image: url('images/daughter-and-mom.jpeg');" class="zoom-effect rounded-2xl">
+                            </div> 
+                            <div class="grid content-end absolute bottom-0">
+                                <button class="mb-4 bg-black bg-opacity-50 rounded-full text-white font-pingMedium px-16 py-1.5">
+                                    الطعام
+                                </button>
+                            </div>
+                        </div>        
+                    </a>
+                </div>            
+                <!-- End CARD -->
+
+                <!-- Start CARD -->
+                <div class=" ml-card-margine">
+                    <a href="">
+                        <div class="relative flex items-center justify-center  overflow-hidden rounded-2xl w-60 md:w-9.5/10 h-72 px-1">
+                            <div style="background-image: url('images/daughter-and-mom.jpeg');" class="zoom-effect rounded-2xl">
+                            </div> 
+                            <div class="grid content-end absolute bottom-0">
+                                <button class="mb-4 bg-black bg-opacity-50 rounded-full text-white font-pingMedium px-16 py-1.5">
+                                    الطعام
+                                </button>
+                            </div>
+                        </div>        
+                    </a>
+                </div>            
+                <!-- End CARD -->
+
+                <!-- Start CARD -->
+                <div class=" ml-card-margine">
+                    <a href="">
+                        <div class="relative flex items-center justify-center  overflow-hidden rounded-2xl w-60 md:w-9.5/10 h-72 px-1">
+                            <div style="background-image: url('images/daughter-and-mom.jpeg');" class="zoom-effect rounded-2xl">
+                            </div> 
+                            <div class="grid content-end absolute bottom-0">
+                                <button class="mb-4 bg-black bg-opacity-50 rounded-full text-white font-pingMedium px-16 py-1.5">
+                                    الطعام
+                                </button>
+                            </div>
+                        </div>        
+                    </a>
+                </div>            
+                <!-- End CARD -->
+
+            </div>      
+        </div>          
+        
+        </section>
+        <!-- END CATEGORIES SECTION -->
+           
+        <!-- START WORKSHIP SECTION -->
+        <section class="bg-white h-auto pt-8 relative">
+            <div class="container mx-auto md:px-page-container px-4 pt-10">                    
+                <div class="md:flex justify-between">
+                    <div class="md:mb-10 mb-5">
+                        <h1 class=" md:text-5xl text-3xl font-pingBold mb-1">الورش</h1>
+                        <h4 class="text-gr md:text-base text-sm">هذ النص هو مثال لنص يمكن أن يتسبدل في نفس المساحة</h4>
+                    </div>
+                    <div class="mb-7 md:flex hidden">
+                       <div>
+                        <button class="border-2 rounded-full font-semibold py-2 px-9 text-lg">كل الورش</button>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-3  md:py-10 pt-10 md:pt-0">
+
+                     <!-- Start CARD -->
+                     <div class="md:md:mx-card-margine mb-card-margine md:mb-0">
+                        <div class="transform transition duration-500 hover:-translate-y-4 OpenModal cursor-pointer">
+
+                                <div class="bg-cover bg-center rounded-2xl overflow-hidden h-60" 
+                                style="background-image: url('images/workshop3.jpg');">
+                                </div>
+                                <div class="my-4 tracking-wide font-pingMedium text-gr flex justify-between"> 
+                                    <div>
+                                        <h4 class="font-pingLight"><span class="font-pingBold">180</span> ر.س بقي 14 يوم لتبدأ</h4>
+                                    </div>
+                                    <div class="">
+                                        <h4 class="inline-flex text-yl">8.3</h4>
+                                        <i class="fas fa-star text-xs text-yl"></i>
+                                    </div>
+                                </div>
+                                <h2 class="text-lg font-pingBold mb-4">يمكن استبدال هذا النص باسم الورشة كاملا</h2>
+                                <div class="flex">
+                                    <div class="flex text-gr ml-4">
+                                        <i class="fas fa-map-marker-alt ml-2 pt-1"></i>
+                                        <h4>السعودية - الرياض</h4>
+                                    </div>
+                                    <div class="flex text-gr">
+                                        <i class="fas fa-certificate ml-2 pt-1"></i>
+                                        <h4>شهادة حضور</h4>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                    <!-- End CARD -->  
+                                        
+                     <!-- Start CARD -->
+                     <div class="md:md:mx-card-margine mb-card-margine md:mb-0">
+                        <div class="transform transition duration-500 hover:-translate-y-4 OpenModal cursor-pointer">
+                                <div class="bg-cover bg-center rounded-2xl overflow-hidden h-60" 
+                                style="background-image: url('images/workshop3.jpg');">
+                                </div>
+                                <div class="my-4 tracking-wide font-pingMedium text-gr flex justify-between"> 
+                                    <div>
+                                        <h4 class="font-pingLight"><span class="font-pingBold">180</span> ر.س بقي 14 يوم لتبدأ</h4>
+                                    </div>
+                                    <div class="">
+                                        <h4 class="inline-flex text-yl">8.3</h4>
+                                        <i class="fas fa-star text-xs text-yl"></i>
+                                    </div>
+                                </div>
+                                <h2 class="text-lg font-pingBold mb-4">يمكن استبدال هذا النص باسم الورشة كاملا</h2>
+                                <div class="flex">
+                                    <div class="flex text-gr ml-4">
+                                        <i class="fas fa-map-marker-alt ml-2 pt-1"></i>
+                                        <h4>السعودية - الرياض</h4>
+                                    </div>
+                                    <div class="flex text-gr">
+                                        <i class="fas fa-certificate ml-2 pt-1"></i>
+                                        <h4>شهادة حضور</h4>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- End CARD -->          
+
+                    <!-- Start CARD -->
+                    <div class="md:md:mx-card-margine mb-card-margine md:mb-0">
+                        <div class="transform transition duration-500 hover:-translate-y-4 OpenModal cursor-pointer">
+                                <div class="bg-cover bg-center rounded-2xl overflow-hidden h-60" 
+                                style="background-image: url('images/workshop3.jpg');">
+                                </div>
+                                <div class="my-4 tracking-wide font-pingMedium text-gr flex justify-between"> 
+                                    <div>
+                                        <h4 class="font-pingLight"><span class="font-pingBold">180</span> ر.س بقي 14 يوم لتبدأ</h4>
+                                    </div>
+                                    <div class="">
+                                        <h4 class="inline-flex text-yl">8.3</h4>
+                                        <i class="fas fa-star text-xs text-yl"></i>
+                                    </div>
+                                </div>
+                                <h2 class="text-lg font-pingBold mb-4">يمكن استبدال هذا النص باسم الورشة كاملا</h2>
+                                <div class="flex">
+                                    <div class="flex text-gr ml-4">
+                                        <i class="fas fa-map-marker-alt ml-2 pt-1"></i>
+                                        <h4>السعودية - الرياض</h4>
+                                    </div>
+                                    <div class="flex text-gr">
+                                        <i class="fas fa-certificate ml-2 pt-1"></i>
+                                        <h4>شهادة حضور</h4>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- End CARD -->                 
+
+                </div>
+                <div class="mb-7 mt-4 md:hidden flex justify-center">
+                    <button class="border-2 rounded-full font-semibold py-2 px-9 text-lg">كل الورش</button>
+                </div>
+            </div>    
+        </section>
+        <!-- END WORKSHIP SECTION -->    
+        
+         <!-- Start Workshop Modals -->
+         <section class="">
+            <div class="hidden bg-black backdrop-blur-sm bg-opacity-20 fixed inset-0 z-20  justify-center overflow-y-auto items-center" id="overly">
+                <div class="bg-white md:h-40rem h-722 md:w-60rem w-full absolute rounded-2xl mx-7 flex">
+                    <div style="background-image: url('images/1.png');"
+                        class="bg-cover hidden md:flex h-full w-1/2 rounded-r-3xl bg-center">
+                    </div>
+                    <div class="md:w-1/2">
+                        <div class="flex justify-end mt-7 ml-6">
+                            <button id="closeModal">
+                                <i class="fas fa-times text-gr"></i>
+                            </button>
+                        </div>
+                        <div class="mx-6">
+                            <div>
+                                <h2 class="text-gr font-pingRegular mb-3">تنمية مجتمعية</h2>
+                                <h1 class="md:font-pingMedium font-pingBold md:text-2xl text-lg my-5">بلاستيك معاد التدوير أو متجدد بحلول عام 2030</h1>
+                                <p class="text-gr font-pingLight text-base leading-relaxed">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</p>
+                            </div>
+                            <div class="grid grid-cols-3 mt-5 md:ml-5">
+                                <div class="flex items-center border rounded-md h-28  place-content-center mx-1.5">
+                                    <div class="">
+                                        <div class="flex justify-center mb-3">
+                                            <img src="images/Icon-Calendar.svg" alt="" class="h-7"> 
+                                        </div>
+                                        <h1 class="text-center md:text-base text-sm text-gr my-1">تواصلوا معنا</h1>
+                                    </div>
+                                </div>    
+                                <div class="flex items-center border rounded-md h-28 place-content-center mx-1.5">
+                                    <div class="">
+                                        <div class="flex justify-center mb-3">
+                                            <img src="images/Icon-Portfolio.svg" alt="" class="h-7"> 
+                                        </div>
+                                        <h1 class="text-center md:text-base text-sm text-gr my-1">تدقيق ومراجعة</h1>
+                                    </div>
+                                </div>     
+                                <div class="flex items-center border rounded-md h-28 place-content-center mx-1.5">
+                                    <div class="">
+                                        <div class="flex justify-center mb-3">
+                                            <img src="images/Icon-Location.svg" alt="" class="h-7"> 
+                                        </div>
+                                        <h1 class="text-center md:text-base text-sm text-gr my-1">نشر القصص</h1>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="mt-5">
+                                <h3 class="text-gr font-pingMediumm my-1">السعر</h3>
+                                <h1 class="md:text-3xl text-xl md:font-pingMedium font-pingBold">430 ر.س</h1>
+                            </div>
+                            <div class="md:mt-5 mt-3 flex place-content-center">
+                            <div class="w-full flex justify-center">
+                               <div>
+                                <a href="workshop.html">
+                                    <button class="bg-background rounded-full md:py-3 py-1.5 md:w-48 w-9.5/10 ml-1.5">شاهد التفاصيل</button>
+                                </a>
+                                <a href="">
+                                    <button class="border border-black rounded-full md:py-3 py-1.5 mt-2 md:w-48 w-9.5/10 ml-1.5">
+                                        احجز مقعدك الآن
+                                    </button>
+                                </a>
+                               </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Workshop Modals -->
+
+        <hr class="container mx-auto md:px-page-container mb-10">
+
+        <!-- START FROM THE GROUND SECTION -->
+        <section class="md:h-auto bg-white pt-5 md:mx-0">
+            <div class="container mx-auto md:px-page-container px-4">
+                <a href="">
+                    <div class="relative overflow-hidden flex rounded-2xl md:h-120 h-64 mb-16">
+                        <div class="zoom-effect rounded-2xl" 
+                         style="background-image: url('images/plants.jpeg');" >
+                        </div>
+                        <div class="absolute text-white  mr-10 mt-10">
+                            <h1 class="md:text-4xl text-3xl font-pingMedium leading-snug">من الأرض</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!-- END FROM THE GROUND SECTION-->    
+        
+        <hr class="container mx-auto page-container"> 
+
+         <!-- START IDEAS WAREHOUSE SECTION-->
+        <section class="h-auto relative">
+            <div class="container mx-auto md:px-page-container px-4 mt-16 pb-10">
+                <div class="md:flex justify-between">
+                    <div class="mb-10">
+                        <h1 class=" md:text-5xl text-4xl font-pingBold mb-1">مستودع الأفكار</h1>
+                        <h4 class="text-gr">هذ النص هو مثال لنص يمكن أن يتسبدل في نفس المساحة</h4>
+                    </div>
+                    <div class="mb-7 md:flex hidden">
+                        <div>
+                         <button class="border-2 rounded-full font-semibold py-2 px-9 text-lg">المزيد</button>
+                        </div>
+                     </div>
+                </div>
+
+                <div class="grid md:grid-cols-4 sm:grid-cols-2">
+                    <!-- Start Card -->
+                        <a href="" class="h-120 overflow-hidden flex rounded-2xl md:md:mx-card-margine mb-card-margine transform transition duration-500 hover:-translate-y-4">
+                            <div class="w-full h-full bg-cover rounded-2xl" 
+                                 style="background-image: url('images/Idea1.jpg');">
+                            </div>
+                            <div class="absolute text-white grid content-end bottom-0 mx-7 mb-5">
+                                <span class=" text-white">المنزل</span>
+                                <h1 class="text-base font-pingBold leading-snug">لماذا نصنع المنتجات الجميلة لعدد محدود من المشترين</h1>
+                            </div>
+                        </a>
+                    <!-- End Card -->
+
+                     <!-- Start Card -->
+                     <a href="" class="h-120  overflow-hidden flex  rounded-2xl md:md:mx-card-margine mb-card-margine transform transition duration-500 hover:-translate-y-4">
+                        <div class="w-full h-full bg-cover rounded-2xl" 
+                             style="background-image: url('images/Idea2.jpg');">
+                        </div>
+                        <div class="absolute text-white grid content-end bottom-0 mx-7 mb-5">
+                            <span class=" text-white">المنزل</span>
+                            <h1 class="text-base font-pingBold leading-snug">لماذا نصنع المنتجات الجميلة لعدد محدود من المشترين</h1>
+                        </div>
+                    </a>
+                    <!-- End Card -->
+
+                    <!-- Start Card -->
+                    <a href="" class="h-120  overflow-hidden flex  rounded-2xl md:md:mx-card-margine mb-card-margine transform transition duration-500 hover:-translate-y-4">
+                        <div class="w-full h-full bg-cover rounded-2xl" 
+                            style="background-image: url('images/Idea3.jpg');">
+                        </div>
+                        <div class="absolute text-white grid content-end bottom-0 mx-7 mb-5">
+                            <span class=" text-white">المنزل</span>
+                            <h1 class="text-base font-pingBold leading-snug">لماذا نصنع المنتجات الجميلة لعدد محدود من المشترين</h1>
+                        </div>
+                    </a>
+                    <!-- End Card -->
+
+                    <!-- Start Card -->
+                    <a href="" class=" h-120 overflow-hidden flex  rounded-2xl md:md:mx-card-margine mb-card-margine transform transition duration-500 hover:-translate-y-4">
+                        <div class="w-full h-full bg-cover rounded-2xl" 
+                            style="background-image: url('images/Idea4.jpg');">
+                        </div>
+                        <div class="absolute text-white grid content-end bottom-0 mx-7 mb-5">
+                            <span class=" text-white">المنزل</span>
+                            <h1 class="text-base font-pingBold leading-snug">لماذا نصنع المنتجات الجميلة لعدد محدود من المشترين</h1>
+                        </div>
+                    </a>
+                    <!-- End Card -->
+
+                </div>
+                <div class="flex justify-center mt-10 md:hidden">
+                    <button class="border-2 rounded-full font-semibold py-2 px-9 text-lg">المزيد</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- END IDEAS WAREHOUSE SECTION-->
+
+        <hr class="container mx-auto md:px-page-container">
+
+        <!-- START JOIN US && KNOW YOUR STORY SECTION -->
+        <section class="container mx-auto md:px-page-container md:grid-cols-2 grid  mt-18">
+
+           <!-- Start Know Your Story -->
+          <div class="md:mx-card-margine">
+            <div href="" class="relative overflow-hidden flex rounded-2xl w-full md:h-80 h-60 md:mb-16 mb-7 ml-3 cursor-pointer OpenModal2">
+                <div class="zoom-effect bg-center rounded-2xl" 
+                 style="background-image: url('images/Know-your-story.jpg');" >
+                </div>
+                <div class="absolute text-white grid content-end bottom-0 left-0 ml-5 mb-5">
+                    <button class="bg-yl rounded-full font-semibold py-1.5 px-8 text-white text-lg">من هنا</button>
+                </div>
+                <div class="absolute text-white  mr-10 mt-7">
+                    <h1 class="md:text-4xl text-3xl font-pingMedium leading-snug">اعرف قصتك</h1>
+                </div>                
+               </div>
+          </div>
+          <!-- End Know Your Story -->
+
+            <!-- Start Join Us -->
+            <div class="md:mx-card-margine">
+                <div href="" class="relative overflow-hidden flex rounded-2xl w-full md:h-80 h-60 mb-16 cursor-pointer OpenModal3">
+                    <div class="zoom-effect bg-center w-full rounded-2xl" 
+                    style="background-image: url('images/join-us.jpg');" >
+                    </div>
+                    <div class="absolute text-white grid content-end bottom-0 left-0 ml-5 mb-5">
+                        <button class="bg-yl rounded-full font-semibold py-1.5 px-8 text-white text-lg">التفاصيل</button>
+                    </div>
+                    <div class="absolute text-white  mr-10 mt-7">
+                        <h1 class="md:text-4xl text-3xl font-pingMedium leading-snug">انضم لنا</h1>
+                    </div>                
+                </div>
+            </div>
+            <!-- End Join Us -->
+
+            <!-- START Know Your Story MODAL -->
+            <section class="">
+                <div class=" bg-black backdrop-blur-sm bg-opacity-20 fixed inset-0 z-20 hidden justify-center overflow-y-auto items-center" id="overly2">
+                    <div class="bg-white md:h-40rem h-722 md:w-60rem w-full absolute rounded-2xl mx-7 flex">
+                        <div style="background-image: url('images/1.png');"
+                            class="bg-cover hidden md:flex h-full w-1/2 rounded-r-3xl bg-center">
+                        </div>
+                        <div class="md:w-1/2 w-9.5/10">
+                            <div class="flex justify-end mt-7 md:ml-6">
+                                <button id="closeModal2">
+                                    <i class="fas fa-times text-gr"></i>
+                                </button>
+                            </div>
+                            <div class="mr-5 mt-5 md:mt-0">
+                                <div>
+                                    <h2 class="text-gr font-pingMedium text-xl mt-3">اعرض قصتك</h2>
+                                    <h1 class="font-pingBold md:text-3xl text-2xl  md:my-3 my-1.5">خطوات عرض قصتك معنا </h1>
+                                    <p class="text-gr font-pingLight text-base md:w-9/10 leading-loose">إذا كنت تحتاج إلى عدد أكبر من الف ق قرات يتيح لك مولد النص يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وج رات يتيح لك مولد النص يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</p>
+                                </div>
+                                <div class="grid grid-cols-3 mt-5 md:ml-5">
+                                    <div class="flex items-center border rounded-md h-28  place-content-center mx-1.5">
+                                        <div class="">
+                                            <div class="flex justify-center mb-3">
+                                                <img src="images/Icon-Calendar.svg" alt="" class="h-7"> 
+                                            </div>
+                                            <h1 class="text-center md:text-base text-sm text-gr my-1">تواصلوا معنا</h1>
+                                        </div>
+                                    </div>    
+                                    <div class="flex items-center border rounded-md h-28 place-content-center mx-1.5">
+                                        <div class="">
+                                            <div class="flex justify-center mb-3">
+                                                <img src="images/Icon-Portfolio.svg" alt="" class="h-7"> 
+                                            </div>
+                                            <h1 class="text-center md:text-base text-sm text-gr my-1">تدقيق ومراجعة</h1>
+                                        </div>
+                                    </div>     
+                                    <div class="flex items-center border rounded-md h-28 place-content-center mx-1.5">
+                                        <div class="">
+                                            <div class="flex justify-center mb-3">
+                                                <img src="images/Icon-Location.svg" alt="" class="h-7"> 
+                                            </div>
+                                            <h1 class="text-center md:text-base text-sm text-gr my-1">نشر القصص</h1>
+                                        </div>
+                                    </div>                            
+                                </div>
+                                <div class="md:flex mt-7 justify-between">
+                                    <div class="">
+                                        <label for="email"></label>
+                                        <input 
+                                        type="email"   
+                                        id="email"
+                                        placeholder="name@gmail.com" required
+                                        class="border rounded-full py-3 md:pl-32 pl-24 pr-5">
+
+                                    </div>
+                                    <div class="md:ml-4">
+                                        <button class="bg-yl text-white py-3 md:mt-0  mt-5 px-5 rounded-full">تواصل الان</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Know Your Story MODAL -->
+
+            <!-- START Join Us MODAL -->
+            <section class="">
+                <div class="hidden bg-black backdrop-blur-sm bg-opacity-20 fixed inset-0 z-20  justify-center overflow-y-auto  items-center" id="overly3">
+                    <div class="bg-white md:h-40rem h-722 md:w-60rem w-full absolute rounded-2xl mx-7 flex">
+                        <div style="background-image: url('images/1.png');"
+                            class="bg-cover hidden md:flex h-full w-1/2 rounded-r-3xl bg-center">
+                        </div>
+                        <div class="md:w-1/2 w-9.5/10">
+                            <div class="flex justify-end mt-7 md:ml-6">
+                                <button id="closeModal3">
+                                    <i class="fas fa-times text-gr"></i>
+                                </button>
+                            </div>
+                            <div class="mr-5">
+                                <div>
+                                    <h2 class="text-gr font-pingMedium text-xl md:mt-3">انضم لنا</h2>
+                                    <h1 class="font-pingBold md:text-3xl text-2xl md:my-3 my-1.5">نرحب بك ونسعد بانضمامك إلينا</h1>
+                                    <p class="text-gr font-pingLight text-base w-9/10 md:leading-loose">إذا كنت تحتاج إلى عدد أكبر من الف ق قرات يتيح لك مولد النص يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وج رات يتيح لك مولد النص يحوي أخطاء لغوية، </p>
+                                </div>
+                                
+                                <div class="md:mt-12 mt-4 w-full justify-between">
+                                    <div class="w-full ml-6 md:flex">
+                                        <label for="name" class="mb-2 mt-1 block md:flex text-gr ml-3 md:w-1/4 font-pingMedium">الاسم</label>
+                                        <input 
+                                        type="name"   
+                                        id="name"
+                                        placeholder="الاسم الكامل" required
+                                        class="border rounded-full py-1 w-64 pr-5 placeholder:text-gray-400">
+                                    </div>
+                                    <div class="w-full ml-6 md:flex mt-4">
+                                        <label for="email" class="mb-2 mt-1 text-gr block md:flex ml-3 md:w-1/4 font-pingMedium">البريد الإلكتروني</label>
+                                        <input 
+                                        type="email"   
+                                        id="email"
+                                        placeholder="name@gmail.com" required
+                                        class="border rounded-full py-1 w-64 pr-5 placeholder:text-gray-400">
+                                    </div>
+                                    <div class="w-full ml-6 md:flex mt-4">
+                                        <label for="major" class="mb-2 mt-1 block text-gr ml-3 md:w-1/4 font-pingMedium">التخصص</label>
+                                        <div class="absolute text-gr md:left-18 left-16 pt-2.5 pl-5 flex items-center pointer-events-none">
+                                            <svg class="h-4" viewBox="0 0 20 20">
+                                                <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" fill-rule="evenodd"></path>
+                                            </svg>
+                                        </div> 
+                                        <select
+                                            class="border rounded-full py-1 w-64 cursor-pointer focus:outline-none appearance-none pr-5">
+                                            <option value="">تخصص</option>
+                                            <option value="">مبرمج</option>
+                                            <option value="">مصمم</option>
+                                        </select>
+                                                                        
+                                    </div>
+                                    <div class="w-full ml-6 md:flex mt-4">
+                                        <label for="resume" class="mt-1 text-gr ml-3 md:w-1/4 focus:outline-none font-pingMedium">السيرة الذاتية</label>
+                                        <button class="border w-64 mt-2 text-gray-400 flex justify-start pr-5 rounded-full py-1 md:w-64" onclick="document.getElementById('getFile').click()">filename.pdf </button>
+                                        <input 
+                                        type="file"   
+                                        id="getFile"
+                                        placeholder="filename.pdf" 
+                                        class="border rounded-full py-1  pr-5" style="display: none;">
+                                    </div>
+                                    
+                                </div>
+                                <div class="mt-5">
+                                    <button  class="bg-yl text-white py-3 px-8 rounded-full">إرسال</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Join Us MODAL -->
+       
+            
+        </section>
+        <!-- END JOIN US && KNOW YOUR STORY SECTION -->
+
+        </main>
+
+         <!-- START FOOTER -->
+         <footer class="bg-background md:w-full md:mb-0">
+            <div class="container mx-auto md:px-page-container md:flex pt-10">
+                
+                <div class="ml-32 md:w-full mr-8 md:mr-0"> 
+                    <a href="index.html"><img src="images/logo.svg" alt="Logo" class="h-16 mt-2"></a>
+                    <p class="text-gr py-4  md:w-full w-72">لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها</p>
+                    <h4 class="pb-6 pt-10  hidden md:flex"> جميع الحقوق محفوظة لمنصة صناع جمال</h4>
+                </div>
+
+                <div class="md:flex place-items-center md:w-full mr-8 md:mr-0 md:mt-0 mt-10">
+                    <div class="">
+                        <h3 class="font-pingMedium">روابط مفيدة</h3>
+                        <div class="flex w-full">
+                            <div class="ml-24 mt-5">
+                                <a href="index.html" class="mb-4  text-gr block">الرئيسية</a>
+                                <a href="story.html" class="mb-4  text-gr block">القصص</a>
+                                <a href="us.html" class="mb-4  text-gr block">نحن</a>
+                                <a href="workshops.html" class="mb-4  text-gr block">الورش</a>          
+                                <a href="" class="mb-4  text-gr block">المصادر</a>          
+                            </div>
+                            <div class="mt-5">
+                                <a href="" class="mb-4  text-gr block">الشروط والأحكام</a>
+                                <a href="" class="mb-4  text-gr block">سياسة الخصوصية</a>
+                                <a href="" class="mb-4  text-gr block">انصم لنا</a>
+                                <a href="" class="mb-4  text-gr block">راسلنا</a>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-8.7/10 md:w-auto mr-8 md:mr-0 mt-10 pb-5">
+                    <div class="border rounded-xl py-5 md:pl-5 pl-14">                        
+                        <div class="m-2">
+                            <div class="flex">
+                                <div class="mr-5">
+                                    <img src="images/mailbox.svg" alt="mailbpx" 
+                                         class="h-12 mt-2">
+                                </div>
+                                <div class="mr-4 mt-2">
+                                    <h3 class="font-pingBold">النشرة البريدية</h3>
+                                    <h3 class="text-gr text-sm"> كم يسعدنا أن تكون معنا، تأكد أننا لن نزعجك أبداً</h3>
+                                </div>
+                            </div>
+                           
+                            <div class="md:flex pt-5 m-4"> 
+                                <div class="ml-4">
+                                    <label class="text-gray-300">
+                                        <input class="border bg-transparent border-gray-300 rounded-full py-1 md:pl-24 pl-10 pr-3 placeholder:text-gray-300 placeholder:font-light" placeholder="ادخل بريدك الالكتروني" type="text" name="mail"/>
+                                    </label>
+                                </div>
+                                <div>
+                                    <button class="bg-yl mt-3 md:mt-0 rounded-full font-semibold py-1 px-5 text-white">اشتراك</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="pb-5 mr-8 md:hidden"> جميع الحقوق محفوظة لمنصة صناع جمال</h4>
+                </div>
+
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>        
+        <script src="./index.js" defer>
+        </script>
+    
+</body>
+</html> 

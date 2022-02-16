@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.168" height="59.984" viewBox="0 0 48.168 59.984">
+  <g id="_Group_" data-name="&lt;Group&gt;" transform="translate(-5.5 -0.869)">
+    <path id="_Rectangle_" data-name="&lt;Rectangle&gt;" d="M17.369,5.24H41.8A11.369,11.369,0,0,1,53.168,16.609V36.734A1.666,1.666,0,0,1,51.5,38.4H7.666A1.666,1.666,0,0,1,6,36.734V16.609A11.369,11.369,0,0,1,17.369,5.24Z" transform="translate(0 1.288)" fill="none" stroke="#5e5e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <ellipse id="_Ellipse_" data-name="&lt;Ellipse&gt;" cx="19.152" cy="2.492" rx="19.152" ry="2.492" transform="translate(12.771 55.869)" fill="#d5d5d5" opacity="0.998"/>
+    <path id="Path_23" data-name="Path 23" d="M17.382,5.24A11.382,11.382,0,0,0,6,16.622V36.734A1.666,1.666,0,0,0,7.666,38.4H27.085a1.666,1.666,0,0,0,1.666-1.666V16.622A11.369,11.369,0,0,0,17.382,5.24Z" transform="translate(0 1.288)" fill="none" stroke="#5e5e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_24" data-name="Path 24" d="M32.5,1.37H28.168A1.653,1.653,0,0,0,26.5,3.023V23.935a2.506,2.506,0,1,0,5,0V11.06h1a1.653,1.653,0,0,0,1.706-1.653V3.023A1.653,1.653,0,0,0,32.5,1.37Z" transform="translate(6.821)" fill="none" stroke="#5e5e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="_Rectangle_2" data-name="&lt;Rectangle&gt;" d="M22.16,30.12h7.917V46.953a1.666,1.666,0,0,1-1.666,1.666H23.826a1.666,1.666,0,0,1-1.666-1.666Z" transform="translate(5.378 9.568)" fill="#f2f2f2" stroke="#5e5e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="_Path_" data-name="&lt;Path&gt;" d="M11.583,13.35A1.653,1.653,0,0,0,9.93,15.016V34.035A1.653,1.653,0,0,0,11.583,35.7H25.777a1.666,1.666,0,0,0,1.666-1.666V13.35Z" transform="translate(1.308 3.987)" fill="none" stroke="#5e5e5e" stroke-width="1"/>
+    <path id="_Path_2" data-name="&lt;Path&gt;" d="M11.583,13.35A1.653,1.653,0,0,0,9.93,15.016V34.035A1.653,1.653,0,0,0,11.583,35.7H25.777a1.666,1.666,0,0,0,1.666-1.666V13.35Z" transform="translate(1.308 3.987)" fill="none" stroke="#5e5e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="_Path_3" data-name="&lt;Path&gt;" x2="17.1" y2="12.688" transform="translate(11.651 17.91)" fill="none" stroke="#5e5e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="_Path_4" data-name="&lt;Path&gt;" y1="11.302" x2="13.341" transform="translate(11.651 27.813)" fill="none" stroke="#5e5e5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></svg>

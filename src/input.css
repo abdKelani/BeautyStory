@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+.zoom-effect {
+    
+    @apply w-full h-full bg-cover absolute bg-no-repeat  hover:scale-110  transition-all duration-500 ease-in-out transform;
+             
+}
+.active {
+    @apply border-b-3 border-b-yl
+}
+ .active1 {
+     @apply border-black text-black
+ }
+ .active2{
+     @apply border-yl
+ }
+ .active3{
+    @apply border-yl
+}
+ .show{
+     @apply block
+ }
+ .rotate{
+     @apply rotate-90
+ }
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: "pingLight";
+    src: url('../public/Font/PingAR+LT-Light.otf');
+}
+@font-face {
+    font-family: "pingRegular";
+    src:  url('../public/Font/PingAR+LT-Regular.otf');
+}
+
+@font-face {
+    font-family: "pingMedium";
+    src:  url('../public/Font/PingAR+LT-Medium.otf');
+}
+@font-face {
+    font-family: "pingBold";
+    src:  url('../public/Font/PingAR+LT-Bold.otf');
+}
+
+
+
+
