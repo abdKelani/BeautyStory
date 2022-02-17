@@ -79,7 +79,7 @@
                     <!-- Start Filter -->
                     <div class="relative inline-block w-full pl-5">
                         <h1 class="absolute z-10 right-8 top-2 text-black text-lg">التصنيف</h1>
-                        <select class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
+                        <select style="background-image: none;" class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border-gray-200 rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
                         <option>حدد التصنيف</option>
                         <option>صنف</option>
                         <option>صنف</option>
@@ -94,7 +94,7 @@
                     <!-- Start Filter -->
                     <div class="relative inline-block w-full pl-5">
                         <h1 class="absolute z-10 right-8 top-2 text-black text-lg">التصنيف</h1>
-                        <select class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
+                        <select style="background-image: none;" class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border-gray-200 rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
                         <option>حدد التصنيف</option>
                         <option>صنف</option>
                         <option>صنف</option>
@@ -109,7 +109,7 @@
                     <!-- Start Filter -->
                     <div class="relative inline-block w-full pl-5">
                         <h1 class="absolute z-10 right-8 top-2 text-black text-lg">التصنيف</h1>
-                        <select class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
+                        <select style="background-image: none;" class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border-gray-200 rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
                         <option>حدد التصنيف</option>
                         <option>صنف</option>
                         <option>صنف</option>
@@ -124,7 +124,7 @@
                     <!-- Start Filter -->
                     <div class="relative inline-block w-full pl-5">
                         <h1 class="absolute z-10 right-8 top-2 text-black text-lg">التصنيف</h1>
-                        <select class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
+                        <select style="background-image: none;" class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border-gray-200 rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
                         <option>حدد التصنيف</option>
                         <option>صنف</option>
                         <option>صنف</option>
@@ -136,10 +136,10 @@
                         </div>
                     </div>
                     <!-- End Filter -->
-                    <!-- Start Filter -->
+                    <!-- Start Filter-->
                     <div class="relative inline-block w-full pl-5">
                         <h1 class="absolute z-10 right-8 top-2 text-black text-lg">التصنيف</h1>
-                        <select class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
+                        <select style="background-image: none;" class="w-full h-16 pl-3 pt-8 pr-4 mr-4 text-gr border-gray-200 rounded-lg appearance-none focus:bg-gray-50 focus:outline-none" placeholder="Regular input">
                         <option>حدد التصنيف</option>
                         <option>صنف</option>
                         <option>صنف</option>
@@ -153,7 +153,7 @@
                     <!-- End Filter -->
                     <!-- Start Filter -->
                     <div class="relative inline-block w-full pl-10">
-                        <button class="place-content-center relative w-full h-16  mr-4 text-gr font-pingBold border rounded-lg  focus:bg-gray-50 focus:outline-none">
+                        <button class="place-content-center relative w-full h-16  mr-4 text-gr font-pingBold border rounded-lg border-gray-200  focus:bg-gray-50 focus:outline-none">
                             <h1 class="text-lg">تصفية</h1>
                         </button>
                     </div>
@@ -284,14 +284,14 @@
     <section class=" container mx-auto  px-4">  
         <div class="grid md:grid-cols-3 grid-rows-3 h-fit relative -top-10 mt-10 md:mt-0">
               <!-- Starts CARD -->
-              <div class="md:mx-card-margine mb-8 transform transition duration-500 hover:-translate-y-4">
-                  <!-- COMPLETED WORKSHOP -->
-                  <div class="h-52 w-52 absolute bg-cover bg-center right-23 top-4 flex justify-center pl-40 z-20 rounded-full" 
-                  style="background-image: url('./images/stamp.jpg');"> </div>
-                  <!-- COMPLETED WORKSHOP -->                  
+              <div class="md:mx-card-margine mb-8 transform transition duration-500 hover:-translate-y-4">                  
                   <div class="cursor-pointer  OpenModal grayscale">
-                      <div class="bg-cover bg-center rounded-2xl overflow-hidden h-60" 
+                    <div class="bg-cover bg-center rounded-2xl overflow-hidden h-60" 
                       style="background-image: url('images/workshop2.jpg');">
+                          <!-- STAMP -->                  
+                        <div class="h-52 w-52 absolute bg-cover bg-center md:right-22 right-18 top-4 flex justify-center pl-40 z-20 rounded-full" 
+                        style="background-image: url('./images/stamp.jpg');"> </div>                  
+                        <!-- STAMP -->                  
                     </div>
                         <div class="my-4 tracking-wide font-pingMedium text-gr flex justify-between"> 
                             <div>
@@ -566,12 +566,63 @@
     </section>
     <!-- END CARDS -->
 
-     <!-- Start Workshop Modals -->
-     <section class="">
-        <div class="hidden bg-black backdrop-blur-sm bg-opacity-20 fixed inset-0 z-20  justify-center overflow-y-auto items-center" id="overly">
-            <div class="bg-white md:h-40rem h-722 md:w-60rem w-full absolute rounded-2xl mx-7 flex">
-                <div style="background-image: url('images/1.png');"
-                    class="bg-cover hidden md:flex h-full w-1/2 rounded-r-3xl bg-center">
+      <!-- Start Workshop Modals -->
+      <section class="">
+        <div class=" hidden bg-black backdrop-blur-sm bg-opacity-20 fixed inset-0 z-20  justify-center overflow-y-auto items-center" id="overly">
+            <div class="bg-white md:w-60rem w-full absolute rounded-2xl mx-7 flex">
+                <div class="md:w-1/2 md:h-40rem h-40rem">
+                    <div id="indicators-carousel" class="relative" data-carousel="static">
+
+                        <!-- Carousel wrapper -->
+                        <div class="relative overflow-hidden rounded-r-2xl md:h-40rem h-722 ">
+                    
+                             <!-- Item 1 -->
+                            <div class="hidden duration-700 ease-in-out md:h-40rem h-722" data-carousel-item="active">
+                                <img src="images/daughter-and-mom.jpeg" class="block w-full  bg-center bg-cover" alt="...">
+                            </div>
+                    
+                            <!-- Item 2 -->
+                            <div class="hidden duration-700 ease-in-out md:h-40rem h-722" data-carousel-item="">                                   
+                                <img src="images/daughter-and-mom.jpeg" class="block w-full  bg-center bg-cover" alt="...">
+                            </div>
+                    
+                            <!-- Item 3 -->
+                            <div class="hidden duration-700 ease-in-out md:h-40rem h-722" data-carousel-item="">                                    
+                                <img src="images/daughter-and-mom.jpeg" class="block w-full  bg-center bg-cover" alt="...">
+                            </div>
+                    
+                            <!-- Item 4 -->
+                            <div class="hidden duration-700 ease-in-out md:h-40rem h-722" data-carousel-item="">                                   
+                                <img src="images/daughter-and-mom.jpeg" class="block w-full  bg-center bg-cover" alt="...">
+                            </div>
+                    
+                            <!-- Item 5 -->
+                            <div class="hidden duration-700 ease-in-ou md:h-40rem h-722" data-carousel-item="">                                
+                                <img src="images/daughter-and-mom.jpeg" class="block w-full  bg-center bg-cover" alt="...">
+                            </div>
+                        </div>
+                    
+                        <!-- Slider indicators -->
+                        <div class="absolute hidden md:flex flex-row-reverse space-x-3 -translate-x-1/2  bottom-5 left-1/2">
+                            <button type="button" class="w-2 h-2 rounded-full bg-white hover:bg-yl" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                            <button type="button" class="w-2 h-2 rounded-full bg-white hover:bg-yl" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                            <button type="button" class="w-2 h-2 rounded-full bg-white hover:bg-yl" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                            <button type="button" class="w-2 h-2 rounded-full bg-white hover:bg-yl" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                            <button type="button" class="w-2 h-2 rounded-full bg-white hover:bg-yl" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                        </div>
+                    
+                        <!-- Slider controls -->
+                       <div class="hidden md:flex">
+                        <button type="button" class="absolute bottom-3 left-2 flex items-end justify-center h-full px-4  group focus:outline-none" data-carousel-prev="">
+                            <svg class="w-5 h-5 cursor-pointer text-white sm:w-6 sm:h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                        </button>
+                        <button type="button" class="absolute bottom-3 right-2 flex items-end justify-center h-full px-4  group focus:outline-none" data-carousel-next="">
+                            <svg class="w-5 h-5 cursor-pointer text-white sm:w-6 sm:h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>                            
+                        </button>
+                       </div>
+                    </div>
                 </div>
                 <div class="md:w-1/2">
                     <div class="flex justify-end mt-7 ml-6">
@@ -585,8 +636,8 @@
                             <h1 class="md:font-pingMedium font-pingBold md:text-2xl text-lg my-5">بلاستيك معاد التدوير أو متجدد بحلول عام 2030</h1>
                             <p class="text-gr font-pingLight text-base leading-relaxed">إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</p>
                         </div>
-                        <div class="grid grid-cols-3 mt-5 md:ml-5">
-                            <div class="flex items-center border rounded-md h-28  place-content-center mx-1.5">
+                        <div class="grid grid-cols-3 mt-5 md:ml-5 w-full">
+                            <div class="flex items-center border rounded-md h-28  place-content-center ml-1.5">
                                 <div class="">
                                     <div class="flex justify-center mb-3">
                                         <img src="images/Icon-Calendar.svg" alt="" class="h-7"> 
@@ -602,7 +653,7 @@
                                     <h1 class="text-center md:text-base text-sm text-gr my-1">تدقيق ومراجعة</h1>
                                 </div>
                             </div>     
-                            <div class="flex items-center border rounded-md h-28 place-content-center mx-1.5">
+                            <div class="flex items-center border rounded-md h-28 place-content-center mr-1.5">
                                 <div class="">
                                     <div class="flex justify-center mb-3">
                                         <img src="images/Icon-Location.svg" alt="" class="h-7"> 
@@ -613,28 +664,34 @@
                         </div>
                         <div class="mt-5">
                             <h3 class="text-gr font-pingMediumm my-1">السعر</h3>
-                            <h1 class="md:text-3xl text-xl md:font-pingMedium font-pingBold">430 ر.س</h1>
+                            <div class="flex">
+                                <h3 class="md:text-3xl align-bottom text-xl md:font-pingMedium font-pingBold">430 ر.س</h3>
+                                <h3 class="md:text-2xl align-bottom mr-5 line-through">430 ر.س</h3>
+                            </div>
+                            
                         </div>
-                        <div class="md:mt-5 mt-3 flex place-content-center">
-                        <div class="w-full flex justify-center">
-                           <div>
-                            <a href="workshop.html">
-                                <button class="bg-background rounded-full md:py-3 py-1.5 md:w-48 w-9.5/10 ml-1.5">شاهد التفاصيل</button>
-                            </a>
-                            <a href="">
-                                <button class="border border-black rounded-full md:py-3 py-1.5 mt-2 md:w-48 w-9.5/10 ml-1.5">
-                                    احجز مقعدك الآن
-                                </button>
-                            </a>
-                           </div>
-                        </div>
-                        </div>
+                        <div class="md:mt-5 mt-3 w-full flex justify-between place-content-center">
+                            <div class="w-full ml-3">
+                                <a href="workshop.html">
+                                    <button class="bg-background rounded-full md:py-3 py-1.5 w-full">شاهد التفاصيل</button>
+                                </a>
+                            </div>
+                            <div class="w-full ">
+                                <a href="workshop.html">
+                                    <button class="border border-black rounded-full md:py-3 py-1.5 w-full">
+                                        احجز مقعدك الآن
+                                    </button>                                    
+                                </a>
+                            </div>
+                                
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Workshop Modals -->
+
 
 
  <!-- START FOOTER -->
@@ -685,7 +742,7 @@
                     <div class="md:flex pt-5 m-4"> 
                         <div class="ml-4">
                             <label class="text-gray-300">
-                                <input class="border bg-transparent border-gray-300 rounded-full py-1 md:pl-24 pl-10 pr-3 placeholder:text-gray-300 placeholder:font-light" placeholder="ادخل بريدك الالكتروني" type="text" name="mail"/>
+                                <input class="border bg-transparent border-gray-200 rounded-full py-1 md:pl-24 pl-10 pr-3 placeholder:text-gray-300 placeholder:font-light" placeholder="ادخل بريدك الالكتروني" type="text" name="mail"/>
                             </label>
                         </div>
                         <div>

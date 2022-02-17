@@ -1,5 +1,6 @@
 module.exports = {
-  content: ["./public/**/*.{html,js}"],
+  content: ["./public/**/*.{html,js}",
+  "./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
       lineHeight: {
@@ -117,6 +118,7 @@ module.exports = {
   },
   
   plugins: [
+
     require('tailwind-scrollbar-hide'),
     function ({ addComponents }) {
       addComponents({
@@ -131,6 +133,7 @@ module.exports = {
           
         }
       })
-    }
+    },
+    require('flowbite/plugin')
   ],
 }
